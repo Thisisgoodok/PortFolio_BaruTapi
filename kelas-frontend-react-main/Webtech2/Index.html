@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .kotak {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(204, 70%, 53%);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 50px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Memberikan efek transisi yang halus */
+  }
+
+  /* 1. TRANSLATE (Memindahkan posisi) */
+  .geser:hover {
+    transform: translate(50px, -20px); /* Geser 50px ke kanan, 20px ke atas */
+  }
+
+  /* 2. SCALE (Mengubah ukuran) */
+  .besar:hover {
+    transform: scale(1.5); /* Memperbesar ukuran menjadi 1.5 kali lipat */
+  }
+
+  /* 3. ROTATE (Memutar elemen) */
+  .putar:hover {
+    transform: rotate(45deg); /* Memutar 45 derajat searah jarum jam */
+  }
+
+  /* 4. SKEW (Memiringkan elemen) */
+  .miring:hover {
+    transform: skew(20deg, 10deg); /* Miring 20 derajat sumbu X, 10 derajat sumbu Y */
+  }
+  
+  /* 5. GABUNGAN (Beberapa efek sekaligus) */
+  .gabungan:hover {
+    transform: translate(20px, 20px) rotate(20deg) scale(1.2);
+  }
+</style>
+</head>
+<body>
+  <div class="kotak geser">Translate</div>
+  <div class="kotak besar">Scale</div>
+  <div class="kotak putar">Rotate</div>
+  <div class="kotak miring">Skew</div>
+  <div class="kotak gabungan">Gabungan</div>
+
+
+  <hr>
+
+  
+  
+</body>
+</html>

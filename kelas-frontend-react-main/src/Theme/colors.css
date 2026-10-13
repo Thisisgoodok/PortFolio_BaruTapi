@@ -1,0 +1,71 @@
+/**
+ * ============================================================
+ *  FILE PENGATUR WARNA PORTOFOLIO (TEAL THEME)
+ *  Lokasi: src/theme/colors.css
+ * ============================================================
+ */
+
+/* ---------- LIGHT MODE (Teal Clean) ---------- */
+[data-theme="light"],
+:root {
+  /* Latar & teks */
+  --color-base-100: #ffffff; /* Background utama putih bersih */
+  --color-base-200: #f0fdfa; /* Background sekunder teal sangat lembut */
+  --color-base-300: #ccfbf1; /* Border/garis pemisah */
+  --color-base-content: #0f172a; /* Teks utama */
+
+  /* Brand (Teal Dominan) */
+  --color-primary: #0d9488; /* Teal 600 - Tombol/elemen utama */
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #ccfbf1; /* Teal 100 - Elemen sekunder */
+  --color-secondary-content: #0f766e; /* Teks di atas warna sekunder */
+
+  --color-accent: #14b8a6; /* Teal 500 - Highlight */
+  --color-accent-content: #ffffff;
+
+  --color-neutral: #134e4a; /* Teal 900 */
+  --color-neutral-content: #ffffff;
+
+  /* Status (Kalem/Pastel) */
+  --color-info: #7dd3fc;
+  --color-info-content: #0369a1;
+  --color-success: #86efac;
+  --color-success-content: #14532d;
+  --color-warning: #fde047;
+  --color-warning-content: #713f12;
+  --color-error: #fca5a5;
+  --color-error-content: #7f1d1d;
+}
+
+/* ---------- DARK MODE (Teal Deep/Dark) ---------- */
+[data-theme="dark"] {
+  /* Latar & teks */
+  --color-base-100: #042f2e; /* Teal 950 - Background gelap dengan nuansa teal */
+  --color-base-200: #0a3a38; /* Background sekunder gelap */
+  --color-base-300: #134e4a; /* Border gelap */
+  --color-base-content: #f0fdfa; /* Teks terang off-white */
+
+  /* Brand (Teal Dominan) */
+  --color-primary: #2dd4bf; /* Teal 400 - Menyala & kontras tinggi di latar gelap */
+  --color-primary-content: #042f2e;
+
+  --color-secondary: #134e4a; /* Teal 800 */
+  --color-secondary-content: #ccfbf1;
+
+  --color-accent: #5eead4; /* Teal 300 */
+  --color-accent-content: #042f2e;
+
+  --color-neutral: #0f766e;
+  --color-neutral-content: #f0fdfa;
+
+  /* Status (Diredupkan untuk Dark Mode) */
+  --color-info: #38bdf8;
+  --color-info-content: #082f49;
+  --color-success: #34d399;
+  --color-success-content: #064e3b;
+  --color-warning: #fbbf24;
+  --color-warning-content: #451a03;
+  --color-error: #f87171;
+  --color-error-content: #450a0a;
+}
